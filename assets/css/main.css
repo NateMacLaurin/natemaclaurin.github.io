@@ -4698,10 +4698,8 @@ input, select, textarea {
 	}
 }
 
-.resume-2-column {
-	float: left;
-	width: 50%;
-	padding: 20px;
+.resume-column {
+	padding: 5px;
 }
 
 @media screen and (max-width: 600px) {
