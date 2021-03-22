@@ -4683,3 +4683,36 @@ input, select, textarea {
 		}
 
 	}
+
+/* Resume */
+
+.resume-3-column {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+}
+
+@media screen and (max-width: 800px) {
+	.resume-3-column {
+	  width: 100%;
+	}
+}
+
+.resume-2-column {
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.resume-2-column {
+	  width: 100%;
+	}
+}
+
+.resume-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
